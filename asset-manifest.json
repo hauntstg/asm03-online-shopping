@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/asm03-online-shopping/static/css/main.18a6dfb6.css",
+    "main.js": "/asm03-online-shopping/static/js/main.625d6232.js",
+    "index.html": "/asm03-online-shopping/index.html",
+    "main.18a6dfb6.css.map": "/asm03-online-shopping/static/css/main.18a6dfb6.css.map",
+    "main.625d6232.js.map": "/asm03-online-shopping/static/js/main.625d6232.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18a6dfb6.css",
+    "static/js/main.625d6232.js"
+  ]
+}
