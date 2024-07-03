@@ -1,0 +1,60 @@
+.category .title {
+  font-style: italic;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.title p {
+  margin: 0;
+}
+
+.title p:first-child {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-gray-500);
+}
+
+.title p:last-child {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-gray-800);
+}
+
+.category .products {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6 1fr);
+  grid-template-rows: repeat(2 1fr);
+  grid-gap: 20px;
+}
+
+/* phải có thuộc tính này nếu không ảnh trong grid sẽ bị tràn ra ngoài phạm vi grid */
+.products img {
+  transition: 0.5s ease;
+  width: 100%;
+}
+
+.products img:nth-child(1) {
+  /* bắt đầu từ dòng 1 đến dòng 2, bắt đầu từ cột 1 đến cột 4 */
+  grid-area: 1 / 1 / 2 / 4;
+  /* bắt đầu từ dòng 1 lấy 3 slot */
+  /* grid-area: 1 / span 3; */
+}
+
+.products img:nth-child(2) {
+  /* bắt đầu từ dòng 1 đến dòng 2, bắt đầu từ cột 4 đến cột 7 */
+  grid-area: 1 / 4 / 2 / 7;
+  /* bắt đầu từ dòng 1 lấy 3 slot */
+  /* grid-area: 1 / span 3; */
+}
+
+.products img:nth-child(3),
+.products img:nth-child(4),
+.products img:nth-child(5) {
+  /* bắt đầu từ dòng 2 lấy 2 slot */
+  grid-area: 2 / span 2;
+}
+
+.products img:hover {
+  opacity: 0.8;
+}

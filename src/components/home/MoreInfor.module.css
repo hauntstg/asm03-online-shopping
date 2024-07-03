@@ -1,0 +1,54 @@
+.more-infor .infor {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0;
+  background-color: var(--color-gray-100);
+}
+
+.infor div p:first-child,
+.left p:first-child {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: 0.2rem;
+}
+
+.infor div p:last-child,
+.left p:last-child {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--color-gray-500);
+  margin: 0;
+}
+
+.more-infor .form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.right {
+  width: 60%;
+  height: 50px;
+}
+
+.right input[type="text"] {
+  width: 80%;
+  height: 100%;
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+.right input:focus {
+  outline: none;
+}
+
+.right button {
+  width: 20%;
+  height: 100%;
+  border: 0;
+  color: var(--color-gray-100);
+  background-color: var(--color-gray-800);
+}

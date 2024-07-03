@@ -1,0 +1,79 @@
+.register {
+  position: relative;
+}
+.register img {
+  width: 100%;
+}
+
+.register form {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px var(--color-gray-400);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  background-color: white;
+}
+
+.register form * {
+  width: 70%;
+}
+
+.register form .title {
+  font-size: 28px;
+  font-style: italic;
+  text-align: center;
+  color: var(--color-gray-500);
+  padding: 40px 0;
+}
+
+.register form input {
+  height: 60px;
+  border: 1px solid var(--color-gray-500);
+  border-bottom: 0;
+  padding-left: 20px;
+}
+
+.register form input:focus {
+  outline: none;
+}
+
+.register form input:nth-child(5) {
+  margin-bottom: 20px;
+  border: 1px solid var(--color-gray-500);
+}
+
+.register form button {
+  height: 60px;
+  color: var(--color-gray-300);
+  background-color: var(--color-gray-800);
+  border: 0;
+}
+
+.register form p {
+  font-style: italic;
+  color: var(--color-gray-500);
+  margin: 0;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.register form p a {
+  font-style: italic;
+  text-decoration: none;
+}
+
+.error {
+  list-style-type: none;
+  padding: 20px 0 0 0;
+  margin: 0;
+}
+
+.error li {
+  color: red;
+  width: 100%;
+}

@@ -1,0 +1,237 @@
+.detail > div {
+  padding-bottom: 20px;
+}
+
+.listImage {
+  display: flex;
+}
+.smallImage {
+  width: 8%;
+}
+
+.smallImage img {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.bigImage {
+  width: 40%;
+}
+
+.bigImage img {
+  width: 100%;
+}
+
+/* css description */
+.description {
+  font-style: italic;
+  width: 52%;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.description p {
+  margin-bottom: 20px;
+}
+
+.description .name {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.description .price {
+  font-size: 18px;
+  color: var(--color-gray-500);
+}
+
+.description .short_desc {
+  font-size: 14px;
+  color: var(--color-gray-500);
+}
+
+.btn {
+  display: flex;
+  height: 35px;
+}
+
+.btn .quantity {
+  /* height: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  padding: 0 20px;
+  color: var(--color-gray-300);
+  border: 1px solid var(--color-gray-300);
+}
+
+.quantity div {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  width: 30%;
+  /* padding-left: 10px; */
+}
+
+.quantity div p {
+  /* height: 100%; */
+  margin: 0;
+}
+
+.quantity div p i {
+  font-size: 20px;
+  /* padding: 5px 0; */
+  color: black;
+  transform: rotate(-90deg);
+}
+
+.quantity div p:hover {
+  background-color: var(--color-gray-300);
+}
+
+.quantity div p:active {
+  background-color: var(--color-gray-500);
+}
+
+.quantity div p i:active {
+  color: var(--color-gray-100) !important;
+}
+
+.quantity div input {
+  width: 50%;
+  text-align: center;
+  border: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 14px;
+}
+
+.quantity input:focus {
+  outline: none;
+}
+
+.quantity input::-webkit-inner-spin-button,
+.quantity input::-webkit-outer-spin-button {
+  appearance: none;
+}
+
+.btn button {
+  font-size: 14px;
+  font-style: italic;
+  border: 0;
+  height: 100%;
+  padding: 0 20px;
+  color: var(--color-gray-300);
+  background-color: var(--color-gray-900);
+}
+
+/* 
+.btn input[type="number"]:focus {
+  -moz-appearance: textfield;
+  outline: none;
+}
+.btn input[type="number"]::-webkit-inner-spin-button,
+.btn input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+  transform: rotate(90deg);
+}
+
+.btn input[type="number"]::-webkit-inner-spin-button {
+} */
+/* input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  display: block;
+  transform: rotate(90deg);
+  padding: 20px;
+  height: 80px; 
+  opacity: 0;
+} */
+
+/* input[type="number"]::-webkit-outer-spin-button {
+  padding: 20px;
+  margin: 20px;
+} */
+
+/* .btn input[type="number"] {
+  border: 1px solid var(--color-gray-300);
+  height: 100%;
+  font-size: 14px;
+} */
+
+/* CSS more description */
+.more .more-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-style: italic;
+  padding-bottom: 60px;
+}
+
+.more-desc button {
+  font-size: 14px;
+  font-style: italic;
+  width: 15%;
+  border: 0;
+  color: var(--color-gray-300);
+  background-color: var(--color-gray-900);
+  padding: 10px 0px;
+}
+
+.more-desc .title {
+  font-weight: 500;
+}
+
+.more-desc .long-desc {
+  font-size: 14px;
+  color: var(--color-gray-500);
+}
+
+.long-desc p {
+  margin: 0;
+}
+
+.related-product {
+  font-style: italic;
+}
+
+.related-product .related-title {
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.related-product .list-related {
+  display: flex;
+}
+
+.wrap-product {
+  width: 30%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.wrap-product a {
+  width: 100%;
+}
+
+.wrap-product img {
+  width: 100%;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.wrap-product img:hover {
+  opacity: 0.7;
+}
+
+.wrap-product .related-name {
+  font-weight: 500;
+}
+
+.wrap-product .related-price {
+  color: var(--color-gray-500);
+}
+/* end CSS more description */

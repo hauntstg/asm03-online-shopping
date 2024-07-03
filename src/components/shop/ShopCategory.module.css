@@ -1,0 +1,102 @@
+.top {
+  padding: 40px 0 20px 0;
+  vertical-align: middle;
+}
+
+.top span {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.top input {
+  height: 40px;
+  width: 60%;
+  padding-left: 10px;
+}
+
+.top input:focus {
+  outline: none;
+}
+
+.bottom .menu {
+  font-style: italic;
+}
+
+.bottom .menu p {
+  margin: 0;
+  padding: 10px 0 10px 20px;
+}
+
+.bottom .menu a {
+  display: inline-block;
+  color: var(--color-gray-500);
+  padding: 10px 0 0 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bottom .menu a:hover {
+  color: var(--color-primary-900);
+}
+
+.bottom .menu a:active {
+  text-decoration: underline;
+}
+
+.menu .apple {
+  color: var(--color-gray-100) !important;
+  background-color: var(--color-gray-800);
+}
+
+.menu .iphonemac,
+.menu .wireless,
+.menu .other {
+  font-weight: 500;
+  color: var(--color-gray-800) !important;
+  background-color: var(--color-gray-100);
+  margin-top: 10px !important;
+}
+
+.bottom .products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products .product {
+  width: 33.33%;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  transition: 0.5s ease;
+  cursor: pointer;
+  animation: imgAppear 1s linear;
+}
+
+@keyframes imgAppear {
+  from {
+    transform: scale(0.5);
+    opacity: 0.2;
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.product p:nth-child(2) {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.product p:nth-child(3) {
+  color: var(--color-gray-500);
+  font-weight: 500;
+}
+
+.product img:hover {
+  opacity: 0.7;
+}

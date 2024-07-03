@@ -1,0 +1,28 @@
+nav {
+  /* width: 70%; */
+  margin: 0 auto;
+  /* background-color: #c3c3c3; */
+}
+
+.list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto 1fr auto auto;
+  list-style-type: none;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+
+.list a {
+  color: var(--color-gray-700);
+  text-decoration: none;
+}
+
+.list .boutique {
+  /* width: 75%; */
+  font-weight: 500;
+  color: var(--color-gray-700);
+  text-align: center;
+}

@@ -1,0 +1,204 @@
+.shoppingcart {
+  font-size: 24px;
+  font-style: italic;
+  padding: 20px 0;
+}
+
+.shoppingcart .title {
+  padding-bottom: 20px;
+}
+
+.table {
+  font-size: 14px;
+  text-align: center;
+}
+
+.table th {
+  padding: 10px 10px;
+  background-color: var(--color-gray-100);
+}
+
+.table td {
+  padding: 20px 0;
+}
+
+.table .img {
+  width: 10%;
+}
+
+.table .name {
+  padding-left: 5px;
+  font-weight: 500;
+  width: 35%;
+}
+.table .price {
+  color: var(--color-gray-500);
+  width: 20%;
+}
+
+.table .total {
+  color: var(--color-gray-500);
+  width: 20%;
+}
+.table .remove {
+  width: 5%;
+}
+
+.table .img img {
+  width: 100%;
+}
+
+.table .quantity {
+  width: 10%;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.table .quantity div {
+  display: flex;
+  justify-content: center;
+}
+
+.table .quantity div p {
+  margin: 0;
+  width: 33.33%;
+}
+
+.table .quantity div input {
+  border: 0;
+  width: 33.33%;
+  text-align: center;
+}
+
+.table .quantity div p i {
+  width: 100%;
+  transform: rotate(-90deg);
+}
+
+.quantity div p:hover {
+  background-color: var(--color-gray-300);
+}
+
+.quantity div p:active {
+  background-color: var(--color-gray-500);
+}
+
+.quantity div p i:active {
+  color: var(--color-gray-100) !important;
+}
+
+.quantity input:focus {
+  outline: none;
+}
+
+.quantity input::-webkit-inner-spin-button,
+.quantity input::-webkit-outer-spin-button {
+  appearance: none;
+}
+
+.wrap-carttotal {
+  font-size: 16px;
+  padding: 40px 20px;
+  background-color: var(--color-gray-100);
+}
+
+.wrap-carttotal p {
+  font-size: 24px;
+}
+
+.carttotal {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  width: 100%;
+}
+
+.subtotal-title,
+.subtotal-value {
+  grid-area: 1 / span 1;
+  border-bottom: 1px solid var(--color-gray-300);
+  padding: 10px 0;
+}
+
+.total-title,
+.total-value {
+  grid-area: 2 / span 1;
+  padding: 10px 0;
+}
+
+.subtotal-title,
+.total-title {
+  font-weight: 500;
+}
+
+.subtotal-value,
+.total-value {
+  width: 100%;
+  text-align: end;
+}
+
+.subtotal-value {
+  color: var(--color-gray-500);
+}
+
+.total-value {
+  font-size: 18px;
+}
+/* .subtotal-title {
+  grid-area: 1 / 1 / 2/ 2;
+}
+.subtotal-value {
+  grid-area: 1 / 2 / 2/ 3;
+}
+
+.total-title {
+  grid-area: 2 / 1 / 3/ 2;
+}
+
+.total-value {
+  grid-area: 2 / 2 / 3/ 3;
+} */
+
+.carttotal input {
+  height: 35px;
+  align-self: end;
+  padding-left: 10px;
+  border: 1px solid var(--color-gray-300);
+  grid-area: 3 / 1 / 4/ 3;
+}
+
+.carttotal input:focus {
+  outline: none;
+}
+
+.carttotal button {
+  border: 0;
+  padding: 5px 0;
+  color: var(--color-gray-100);
+  background-color: var(--color-gray-800);
+  grid-area: 4 / 1 / 5/ 3;
+}
+
+.redirect {
+  padding: 30px 0;
+}
+
+.wrap-redirect {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-gray-100);
+  font-size: 14px;
+  padding: 15px;
+}
+
+.wrap-redirect a {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: var(--color-gray-500);
+  cursor: pointer;
+}
+
+.wrap-redirect .checkout {
+  border: 1px solid var(--color-gray-800);
+}

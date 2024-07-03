@@ -1,0 +1,35 @@
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner .collections-button {
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  font-style: italic;
+  transform: translate(0, -50%);
+  z-index: 1;
+}
+
+.collections-button p:first-child {
+  font-size: 14px;
+  color: var(--color-gray-400);
+  margin-bottom: 0.5rem;
+}
+
+.collections-button p:nth-child(2) {
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.collections-button button {
+  border: 0;
+  padding: 5px 20px;
+  font-style: italic;
+  color: var(--color-gray-200);
+  background-color: var(--color-gray-800);
+}

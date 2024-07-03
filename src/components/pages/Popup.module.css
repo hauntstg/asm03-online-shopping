@@ -1,0 +1,55 @@
+.popup {
+  /* display: none; */
+  position: fixed;
+  z-index: 20;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  /* padding: 10px 0 40px 0; */
+}
+
+.popup .infor {
+  display: flex;
+  height: 100%;
+}
+
+.infor img {
+  height: 90%;
+}
+
+.description {
+  font-style: italic;
+}
+
+.description .icon {
+  text-align: end;
+  cursor: pointer;
+}
+
+.description .name {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.description .price {
+  font-weight: 500;
+  color: var(--color-gray-500);
+  margin-bottom: 5px;
+}
+
+.description .desc {
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--color-gray-500);
+}
+
+.description button {
+  font-style: italic;
+  color: var(--color-gray-200);
+  background-color: var(--color-gray-800);
+  border: 0;
+  padding: 5px 20px;
+}

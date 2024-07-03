@@ -1,0 +1,52 @@
+.trending-products .title {
+  font-style: italic;
+  padding: 20px 0;
+}
+
+.title p {
+  margin: 0;
+}
+
+.title p:first-child {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-gray-500);
+}
+
+.title p:last-child {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-gray-800);
+}
+
+.trending-products .products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products .product {
+  width: 25%;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.product p:nth-child(2) {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.product p:nth-child(3) {
+  color: var(--color-gray-500);
+  font-weight: 500;
+}
+
+.product img:hover {
+  opacity: 0.7;
+}

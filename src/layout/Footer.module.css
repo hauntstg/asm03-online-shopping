@@ -1,0 +1,15 @@
+.footer {
+  background-color: black;
+  padding: 40px 0;
+}
+
+.title {
+  color: var(--color-gray-100) !important;
+  font-size: 18px !important;
+  margin-bottom: 15px !important;
+}
+
+.footer p {
+  color: var(--color-gray-400);
+  margin: 0;
+}
